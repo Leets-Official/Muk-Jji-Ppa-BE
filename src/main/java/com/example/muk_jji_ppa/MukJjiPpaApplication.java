@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MukJjiPpaApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(MukJjiPpaApplication.class, args);
 	}
-
 }
