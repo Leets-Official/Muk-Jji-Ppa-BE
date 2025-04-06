@@ -21,7 +21,7 @@ public class MukJjiPpaController implements CommandLineRunner {
 
             String input;
             try {
-                input = scanner.nextLine(); // ← 이 줄이 반드시 try 안에 들어가야 함!
+                input = scanner.nextLine();
             } catch (NoSuchElementException e) {
                 System.out.println("입력을 받을 수 없습니다. 프로그램을 종료합니다.");
                 return;
@@ -59,7 +59,6 @@ public class MukJjiPpaController implements CommandLineRunner {
                 break;
             }
 
-            // 묵찌빠 단계
             while (true) {
                 System.out.println("묵찌빠!!");
                 playerChoice = getValidChoice(scanner);
